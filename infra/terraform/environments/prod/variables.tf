@@ -18,3 +18,8 @@ variable "storage_account_name" {
   type        = string
   description = "Storage account name for this environment (must be globally unique)"
 }
+
+variable "key_vault_name" {
+  type        = string
+  description = "Key Vault name for this environment"
+}
