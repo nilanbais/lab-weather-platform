@@ -13,3 +13,8 @@ variable "tags" {
   type        = map(string)
   description = "Standard tags applied to all resources in this environment"
 }
+
+variable "storage_account_name" {
+  type        = string
+  description = "Storage account name for this environment (must be globally unique)"
+}
