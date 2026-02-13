@@ -1,0 +1,7 @@
+locations:
+  - key: rotterdam_nl
+    name: Rotterdam
+    country: NL
+    lat: 51.9244
+    lon: 4.4777
+    timezone: Europe/Amsterdam

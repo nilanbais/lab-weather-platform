@@ -1,0 +1,6 @@
+source: waqi
+base_url: https://api.waqi.info
+endpoint_template: /feed/geo:{lat};{lon}/
+auth:
+  type: query_param
+  key_name: token

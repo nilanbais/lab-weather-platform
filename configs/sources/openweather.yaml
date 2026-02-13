@@ -1,0 +1,9 @@
+source: openweather
+base_url: https://api.openweathermap.org
+endpoint: /data/2.5/weather
+auth:
+  type: query_param
+  key_name: appid
+request:
+  params:
+    units: metric
